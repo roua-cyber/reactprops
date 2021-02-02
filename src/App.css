@@ -1,0 +1,44 @@
+.form {
+  border:3px solid aqua;
+  width: 700px;
+  padding:30px;
+  margin:50px auto ;
+  height:400px;
+  background:rgba(0,0,0,0.8);
+  border-radius:5px;
+}
+
+.div{
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+    font-size: 17px;
+}
+
+.div .info{
+  padding: .5em 1em .5em 0;
+  flex: 1;
+  padding: 5px;
+  color: aqua;
+  font-weight:500 ;
+
+}
+
+.div .descr{
+  flex:2;
+  padding: 5px;
+  color: aliceblue;
+  font-weight: 100;
+}
+
+.img {
+  margin-top:20px ;
+  padding: .5em 1em .5em 0;
+  width: 200px;
+ 
+}
+.child{
+  display: flex;
+  justify-content: center;
+
+}
